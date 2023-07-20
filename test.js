@@ -1,5 +1,5 @@
 let typed = new Typed(".multitext", {
-  strings: ["am ?", "like mucsic", "like soccer", " am coder"],
+  strings: ["am ?", "like music", "like soccer", " am coder"],
   loop: true,
   backSpeed: 100,
   typeSpeed: 150,
