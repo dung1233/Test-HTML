@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <title>Đăng ký thông tin người dùng</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <head>
+    <div class="head">
+      <div class="one">
+        <p>Form</p>
+      </div>
+      <div class="two">
+        <a href="">Home</a>
+        <a href="">About</a>
+        <a href="">Contact</a>
+        <a href="">help</a>
+      </div>
+      <div class="three">
+        <a href=""><i class="fab fa-instagram"></i></a>
+        <a href=""><i class="fab fa-facebook"></i></a>
+        <a href=""><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+  </head>
+  <div class="body">
+    <div class="text">
+      <span class="topline">Wellcome</span>
+      <h1>I <span class="multitext"></span></h1>
+    </div>
+    <div class="ig">
+      <div class="igm">
+        <img src="hinhanh/4wh-478x420.png" alt="" width="100%">
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="container">
+    <h2>Đăng ký thông tin người dùng</h2>
+    <form action="/submit_form" method="post">
+      <div class="form-group">
+        <label for="full_name">Họ và tên:</label>
+        <input type="text" class="form-control" id="full_name" name="full_name" maxlength="50" required>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" class="form-control" id="email" name="email"
+          pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" required>
+      </div>
+
+      <div class="form-group">
+        <label for="phone">Số điện thoại:</label>
+        <input type="tel" class="form-control" id="phone" name="phone" required>
+      </div>
+
+      <div class="form-group">
+        <label>Giới tính:</label><br>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="gender" id="male" value="Nam" required>
+          <label class="form-check-label" for="male">Nam</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="gender" id="female" value="Nữ" required>
+          <label class="form-check-label" for="female">Nữ</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="gender" id="other" value="Khác" required>
+          <label class="form-check-label" for="other">Khác</label>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label>Sở thích:</label><br>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" name="hobbies[]" value="Thể thao" id="hobby1">
+          <label class="form-check-label" for="hobby1">Thể thao</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" name="hobbies[]" value="Du lịch" id="hobby2">
+          <label class="form-check-label" for="hobby2">Du lịch</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" name="hobbies[]" value="Âm nhạc" id="hobby3">
+          <label class="form-check-label" for="hobby3">Âm nhạc</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" name="hobbies[]" value="Âm nhạc" id="hobby3">
+          <label class="form-check-label" for="hobby4">Xem phim</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" name="hobbies[]" value="Âm nhạc" id="hobby3">
+          <label class="form-check-label" for="hobby5">bóng đá</label>
+        </div>
+
+      </div>
+
+      <div class="form-group">
+        <label for="introduction">Giới thiệu bản thân:</label><br>
+        <textarea class="form-control" id="introduction" name="introduction" rows="4"></textarea>
+      </div>
+
+      <button type="submit" class="btn btn-primary">Gửi đăng ký</button>
+    </form>
+  </div>
+<hr>
+  <footer>
+    <footer class="text-center text-lg-start bg-white text-muted">
+      <!-- Section: Social media -->
+      <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+        <!-- Left -->
+        <div class="me-5 d-none d-lg-block">
+          <span>Get connected with us on social networks:</span>
+        </div>
+        <div>
+          <a href="" class="me-4 link-secondary">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="" class="me-4 link-secondary">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="" class="me-4 link-secondary">
+            <i class="fab fa-google"></i>
+          </a>
+          <a href="" class="me-4 link-secondary">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="" class="me-4 link-secondary">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="" class="me-4 link-secondary">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+
+      </section>
+
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+
+          <div class="row mt-3">
+
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+              <h6 class="text-uppercase fw-bold mb-4">
+                <i class="fas fa-gem me-3 text-secondary"></i>Company name
+              </h6>
+              <p>
+                Here you can use rows and columns to organize your footer content. Lorem ipsum
+                dolor sit amet, consectetur adipisicing elit.
+              </p>
+            </div>
+
+
+
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+              <h6 class="text-uppercase fw-bold mb-4">
+                Products
+              </h6>
+              <p>
+                <a href="#!" class="text-reset">Angular</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">React</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Vue</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Laravel</a>
+              </p>
+            </div>
+
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+              <h6 class="text-uppercase fw-bold mb-4">
+
+              </h6>
+              <p>
+                <a href="#!" class="text-reset">Pricing</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Settings</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Orders</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Help</a>
+              </p>
+            </div>
+
+
+
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+              <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+              <p><i class="fas fa-home me-3 text-secondary"></i> Class: T2305M SEM1</p>
+              <p>
+                <i class="fas fa-envelope me-3 text-secondary"></i>
+                info@example.com
+              </p>
+              <p><i class="fas fa-phone me-3 text-secondary"></i> + 01 234 567 88</p>
+              <p><i class="fas fa-print me-3 text-secondary"></i> + 01 234 567 89</p>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+      <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+        © 2023 Copyright:
+        <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+      </div>
+
+    </footer>
+    <!-- <div class="footer">
+    <div class="cot1">
+      <h3>Giới Thiệu</h3>
+      <br>
+      <p>FPT Aptech có hơn 24 năm kinh nghiệm đào tạo lập trình viên quốc tế tại Việt Nam, và luôn là sự lựa chọn ưu tiên của các sinh viên và nhà tuyển dụng.</p>
+    </div>
+    <div class="cot2">
+      <h3>Lớp T2305M SEM1</h3>
+      <br>
+      <a href="#">Học kỳ 1</a>
+      <a href="#">Học kỳ 2</a>
+      <a href="#">Học kỳ 3</a>
+    </div>
+    <div class="cot3">
+      <h3>Liên hệ trực tuyến</h3>
+      <br>
+      <i class="fab fa-skype"> Skype</i>
+      <i class="fab fa-facebook">Facebook</i>
+      <i class="fab fa-instagram">Instagram</i>
+    </div>
+    <div class="cot4"></div>
+  </div>
+</footer>
+   -->
+
+</body>
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="test.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
